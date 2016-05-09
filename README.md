@@ -9,7 +9,6 @@ second add the code:
     [tt addObject:@"google.com"];
     [tt addObject:@"192.168.100.1"];
     [tt addObject:@"192.168.6.1"];    
-//
     [[IpManage getInstance]init:tt];
     [[IpManage getInstance]do];
 
